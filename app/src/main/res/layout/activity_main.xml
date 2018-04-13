@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/imageView"
         android:layout_centerHorizontal="true"
-        android:text="I Am Poor"
+        android:text="@string/impoor"
         android:textColor="@android:color/black"
         android:textSize="40sp" />
 
@@ -28,5 +28,6 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="47dp"
+        android:contentDescription="@string/app_name"
         app:srcCompat="@drawable/coal" />
 </RelativeLayout>
